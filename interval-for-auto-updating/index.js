@@ -25,7 +25,6 @@ function handleBlur() {
 }
 
 jsInput.oninput = handleInput;
-jsInput.onfocus = handleButtonClick;
 jsInput.onblur = handleBlur;
 jsButton.onclick = handleButtonClick;
 
